@@ -1,10 +1,21 @@
+body {
+    background: linear-gradient(135deg, orange 60%, cyan);
+  }
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 25px;
+    
 }
 
 #voting-table,th,td {
-    border: 1px solid black;
+    border: 1px solid purple;
     font-size: 20px;
+}
+
+button{
+    border-radius: 100px;
+    background-color: lightblue;
 }
